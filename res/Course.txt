@@ -1,0 +1,10 @@
+@relation Course
+@attribute CourseId numeric
+@attribute Cname varchar
+@attribute Faculty varchar
+@attribute Credits numeric
+@data
+101,Computer,Ayush,9
+202,Maths,Anant,8
+303,Electronics,Bab,7
+404,Electrical,Atishay,6

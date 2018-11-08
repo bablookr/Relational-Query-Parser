@@ -1,0 +1,39 @@
+===================================
+Simple Queries
+===================================
+
+SELECT(Student) Name="Bab"&Dept="CSE"|Roll>5
+PROJECT(Student) Name,Dept
+RENAME(Faculty) Prof{ProfId,ProfName,Department,Sex}
+UNION(Scholar) [Student]
+SETDIFFERENCE(Student) [Scholar]
+CARTESIANPRODUCT(Student) [Department]
+
+
+====================================
+Nested Queries
+====================================
+
+SELECT(UNION(PROJECT(Student) Name) [PROJECT(Faculty) Name]) *
+PROJECT(PROJECT(SELECT(Student) *) Name,Dept) Dept 
+RENAME(UNION(PROJECT(Student) Name,Dept) [PROJECT(Scholar) Name,Dept]) PersonalDetails
+UNION(UNION(PROJECT(Student) Name) [PROJECT(Faculty) Name]) [PROJECT(Scholar) Name]
+SETDIFFERENCE(Student) [SETDIFFERENCE(Student) [Scholar]]
+CARTESIANPRODUCT(Faculty) [RENAME(Faculty) Prof{ProfId,ProfName,Department,Gender}]
+SELECT(Student) Name="Bab"&Dept="CSE"&Roll>0|Dept="CSE"&Roll<17|Roll>5
+PROJECT(RENAME(Faculty) Prof{ProfId,ProfName,Dept,Gender}) ProfId
+
+====================================
+Error Handled Queries
+====================================
+
+SELECT(Student) Branch="CSE"
+PROJECT(Student) Name,Name
+RENAME(Faculty) Prof{Id,Id,Dept,Sex}
+UNION(Student) [Faculty]
+SETDIFFERENCE(Student) [Student]
+CARTESIANPRODUCT(Student) [Student]
+SELECT(Staff) *
+INTERSECT(Student) [Scholar]
+
+

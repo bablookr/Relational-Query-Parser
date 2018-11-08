@@ -1,0 +1,64 @@
+# depslib dependency file v1.0
+1476736253 source:/home/babloo/Desktop/RelationalQueryLanguage/main.cpp
+	"functions.h"
+
+1476735671 /home/babloo/Desktop/RelationalQueryLanguage/functions.h
+	<iostream>
+	<fstream>
+	<sstream>
+	<cstdlib>
+	<string>
+	<stack>
+	<queue>
+	<vector>
+	<set>
+	<map>
+
+1476735981 source:/home/babloo/Desktop/RelationalQueryLanguage/functions.cpp
+	"functions.h"
+
+1476739653 source:/home/babloo/Desktop/RelationalQueryLanguage/src/main.cpp
+	"functions.h"
+
+1476740187 /home/babloo/Desktop/RelationalQueryLanguage/src/functions.h
+	<iostream>
+	<fstream>
+	<sstream>
+	<cstdlib>
+	<string>
+	<stack>
+	<queue>
+	<vector>
+	<set>
+	<map>
+
+1476736888 source:/home/babloo/Desktop/RelationalQueryLanguage/src/functions.cpp
+	"functions.h"
+
+1476743497 source:/home/babloo/Desktop/RelationalQueryLanguage/src/HelperFunctions.cpp
+	"functions.h"
+
+1476742633 source:/home/babloo/Desktop/RelationalQueryLanguage/src/RAfunctions.cpp
+	"functions.h"
+
+1476743497 source:/home/babloo/Desktop/Projects/RelationalQueryLanguage/src/HelperFunctions.cpp
+	"functions.h"
+
+1476740187 /home/babloo/Desktop/Projects/RelationalQueryLanguage/src/functions.h
+	<iostream>
+	<fstream>
+	<sstream>
+	<cstdlib>
+	<string>
+	<stack>
+	<queue>
+	<vector>
+	<set>
+	<map>
+
+1476739653 source:/home/babloo/Desktop/Projects/RelationalQueryLanguage/src/main.cpp
+	"functions.h"
+
+1476742633 source:/home/babloo/Desktop/Projects/RelationalQueryLanguage/src/RAfunctions.cpp
+	"functions.h"
+

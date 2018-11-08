@@ -1,0 +1,8 @@
+@relation Department
+@attribute Id numeric
+@attribute DeptName varchar
+@data
+1,CSE
+2,MNC
+3,ECE
+4,EE

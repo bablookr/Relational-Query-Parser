@@ -1,0 +1,10 @@
+@relation Faculty
+@attribute EmpId numeric
+@attribute Name varchar
+@attribute Dept varchar
+@attribute Sex varchar
+@data
+101,Ayush,CSE,M
+102,Anant,CSE,M
+201,Bab,CSE,M
+202,Atishay,EE,M

@@ -1,0 +1,10 @@
+@relation Student
+@attribute Name varchar
+@attribute Dept varchar
+@attribute Roll numeric
+@data
+Bab,CSE,5
+Ayush,CSE,14
+Anant,ECE,5
+Atishay,EE,10
+Ayush,MNC,12

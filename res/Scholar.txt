@@ -1,0 +1,8 @@
+@relation Scholar
+@attribute Name varchar
+@attribute Dept varchar
+@attribute Roll numeric
+@data
+Bab,CSE,5
+Ayush,CSE,14
+Atishay,EE,10
