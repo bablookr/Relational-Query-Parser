@@ -80,13 +80,11 @@ See PACKAGE CONTENTS for a detailed listing.
 
 
 ## PACKAGE CONTENTS
-README.txt                  	This file 
-
-doc/Documentation.pdf       	Formal Documentation 
-
-examples/queries.txt        	Sample queries text file 
-
-res/				db dump 
-
-src/				source codes
+| <!-- -->              | <!-- -->                  |
+| -------------         |:-------------:            |
+| README.md             | This file                 |
+| doc/Documentation.pdf | Formal Documentation      |
+| examples/queries.txt  | Sample queries text file  |
+|res/                   |db dump                    |
+|src/                   |source codes               |
 
