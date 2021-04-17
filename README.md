@@ -1,36 +1,33 @@
-# Formal Relational Query Parser
+## Formal Relational Query Parser
 
-FRQP is a C++ implementation of the Relational Query language, used in DBMS. The relational algebra is a procedural query language. It consists of a set of operations that take one or two relations as input and produce a new relation as their result. The fundamental operations in the relational algebra are select,project,union,set difference,Cartesian product, and rename.
+FRQP is a C++ implementation of the Relational Query language used in DBMS. Relational algebra is a procedural query language which consists of a set of operations that take one or two relations as input and produce a new relation as the output. The fundamental operations in the relational algebra are *select*, *project*, *union*, *set difference*, *cartesian product* and *rename*.
 
-## CONTENTS
+### CONTENTS
 
 * Requirements
-* Quick start
+* Quick Start
 * Documentation
-* Package contents
+* Package Contents
 
-## REQUIREMENTS
+### REQUIREMENTS
 
+Operating systems: Linux, Fedora, Windows
 
-Operating systems:	Linux
-			Fedora
-			Windows
+Tested compilers: gcc/g++ 4.8.4 under Linux
 
-Tested compilers:	 gcc/g++ 4.8.4 under Linux
-
- For gcc/g++ tool chain, GNU make is required for building.
+For gcc/g++ tool chain, GNU make is required for building.
 
 
-## QUICK START
+### QUICK START
 
-For Linux, at the top-level directory,type the commands:
+For Linux, at the top-level directory, run the following commands:
 
 ```
 $ g++ main.cpp -o main.o
 $ ./main.o
 ```
 
-Please read "examples/queries.txt" for sample queries.
+Please read **examples/queries.txt** for sample queries.
  
 * Try simple queries which carry out just one RA operation.They will follow the following syntax:
 ```
@@ -72,14 +69,14 @@ For instance,
 >>> EXIT
 ```
 
-## DOCUMENTATION
+### DOCUMENTATION
 
-Documentation can be found in the directory "doc". 
+Documentation can be found in the **doc** directory. 
 
-See PACKAGE CONTENTS for a detailed listing.
+See **PACKAGE CONTENTS** for a detailed listing.
 
 
-## PACKAGE CONTENTS
+### PACKAGE CONTENTS
 | <!-- -->              | <!-- -->                  |
 | -------------         |:-------------:            |
 | README.md             | This file                 |
